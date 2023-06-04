@@ -1,0 +1,28 @@
+D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/Project_habib.Ev1/Ev1.exe -port=51674 -logFormat=xmltcp -override=startTime=0,stopTime=200,stepSize=0.1,tolerance=0.0001,solver=dassl,outputFormat=mat,variableFilter=.* -r=D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/Project_habib.Ev1/Ev1_res.mat -w -lv=LOG_STATS -inputPath=D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/Project_habib.Ev1 -outputPath=D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/Project_habib.Ev1
+... loading "Cycle" from "NEDC.txt"
+
+The initialization finished successfully without homotopy method.
+### STATISTICS ###
+timer
+     0.00897s          reading init.xml
+   0.0014088s          reading info.xml
+   0.0021074s [  2.2%] pre-initialization
+   0.0015491s [  1.6%] initialization
+    2.62e-05s [  0.0%] steps
+   0.0039721s [  4.2%] solver (excl. callbacks)
+   0.0070637s [  7.5%] creating output-file
+   0.0151843s [ 16.1%] event-handling
+   0.0052245s [  5.5%] overhead
+   0.0591621s [ 62.7%] simulation
+   0.0942894s [100.0%] total
+events
+   37 state events
+    0 time events
+solver: dassl
+  860 steps taken
+ 1290 calls of functionODE
+  554 evaluations of jacobian
+   79 error test failures
+    0 convergence test failures
+0.0022225s time of jacobian evaluation
+The simulation finished successfully.

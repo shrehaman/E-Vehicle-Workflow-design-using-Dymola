@@ -1,0 +1,28 @@
+D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/Project_habib.Ev2/Ev2.exe -port=58859 -logFormat=xmltcp -override=startTime=0,stopTime=200,stepSize=0.1,tolerance=0.0001,solver=dassl,outputFormat=mat,variableFilter=.* -r=D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/Project_habib.Ev2/Ev2_res.mat -w -lv=LOG_STATS -inputPath=D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/Project_habib.Ev2 -outputPath=D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/Project_habib.Ev2
+... loading "Cycle" from "Sort1.txt"
+
+The initialization finished successfully without homotopy method.
+### STATISTICS ###
+timer
+   0.0094906s          reading init.xml
+   0.0014283s          reading info.xml
+   0.0020947s [  2.5%] pre-initialization
+   0.0012784s [  1.5%] initialization
+    1.99e-05s [  0.0%] steps
+   0.0033046s [  3.9%] solver (excl. callbacks)
+   0.0062894s [  7.4%] creating output-file
+   0.0131106s [ 15.5%] event-handling
+   0.0043739s [  5.2%] overhead
+   0.0540787s [ 64.0%] simulation
+   0.0845502s [100.0%] total
+events
+   30 state events
+    0 time events
+solver: dassl
+  712 steps taken
+ 1078 calls of functionODE
+  467 evaluations of jacobian
+   71 error test failures
+    0 convergence test failures
+0.001695s time of jacobian evaluation
+The simulation finished successfully.

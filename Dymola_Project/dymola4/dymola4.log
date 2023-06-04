@@ -1,0 +1,26 @@
+D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/dymola4/dymola4.exe -port=58816 -logFormat=xmltcp -override=startTime=0,stopTime=1,stepSize=0.002,tolerance=1e-6,solver=dassl,outputFormat=mat,variableFilter=.* -r=D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/dymola4/dymola4_res.mat -w -lv=LOG_STATS -inputPath=D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/dymola4 -outputPath=D:/Centurion University/4th Semester/System Integration with DYMOLA/Dymola_Project/dymola4
+The initialization finished successfully without homotopy method.
+### STATISTICS ###
+timer
+    0.004157s          reading init.xml
+   0.0009826s          reading info.xml
+   0.0014142s [  5.1%] pre-initialization
+   0.0005868s [  2.1%] initialization
+    2.27e-05s [  0.1%] steps
+    2.63e-05s [  0.1%] solver (excl. callbacks)
+   0.0020271s [  7.2%] creating output-file
+    7.74e-05s [  0.3%] event-handling
+   0.0005084s [  1.8%] overhead
+   0.0233361s [ 83.3%] simulation
+    0.027999s [100.0%] total
+events
+    0 state events
+    0 time events
+solver: euler
+  500 steps taken
+  500 calls of functionODE
+    0 evaluations of jacobian
+    0 error test failures
+    0 convergence test failures
+0s time of jacobian evaluation
+The simulation finished successfully.
